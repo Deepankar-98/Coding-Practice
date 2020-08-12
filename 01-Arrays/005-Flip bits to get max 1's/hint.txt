@@ -1,0 +1,4 @@
+Note what is the net change in number of 1s in string S when we flip bits of string S.
+Say it has A 0s and B 1s. Eventually, there are B 0s and A 1s.
+
+So, number of 1s increase by A - B. We want to choose a subarray which maximises this. Note, if we change 1s to -1 and change 0 to 1, then sum of values will give us A - B. Then, we have to find a subarray with maximum sum, which can be done via Kadane’s Algorithm.
