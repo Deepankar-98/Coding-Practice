@@ -1,0 +1,12 @@
+## Access Hint
+
+Maintain PrefixSum and SuffixSum for odd and even index seperately.
+Let consider the following variable:
+leftOdd[i] : Denote the prefixSum of element on odd index till i-1.
+leftEven[i] : Denote the prefixSum of element on even index till i-1.
+rightOdd[i] : Denote the SuffixSum of element of odd index till i+1.
+rightEven[i] : Denote the SuffixSum of element of even index till i+1.
+
+Now, check if the ith element is the special or not.
+
+If leftOdd[i] + rightEven[i] == leftEven[i] + rightOdd[i], then ith element is special, so we increase the count.
