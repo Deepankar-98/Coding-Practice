@@ -1,0 +1,15 @@
+## Access Hint
+
+An Efficient Solution can solve this problem in O(N) time using O(N) extra space. Below is detailed solution.
+
+Create two arrays leftMax[] and rightMin[].
+Traverse input array from left to right and fill leftMax[] such that leftMax[i] contains maximum element from 0 to i-1 in input array.
+Traverse input array from right to left and fill rightMin[] such that rightMin[i] contains minimum element from to N-1 to i+1 in input array.
+Traverse input array. For every element A[i], check if A[i] is greater than leftMax[i] and smaller than rightMin[i]. If yes, return 1.
+If loops exits and no such element found return 0
+A Further Optimization to the above approach is to use only one extra array and traverse input array only twice.
+The first traversal is the same as above and fills leftMax[]. Next traversal traverses from the right and keeps track of the minimum. The second traversal also finds the required element.
+
+Time Complexity: O(N)
+Auxiliary Space: O(N)
+
