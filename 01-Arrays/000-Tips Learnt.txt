@@ -1,0 +1,11 @@
+Most array based problems can be solved using the following:
+
+1. Kedane's Algorithm (including all -ve values): For getting maximum result for something
+
+2. prefix[] and suffix[] tables : Depending on problem
+
+3. Binary Search : For log(n) time
+   
+   l=0, h=n-1, Use mid-1, mid+1
+
+4. 2 pointer approach
