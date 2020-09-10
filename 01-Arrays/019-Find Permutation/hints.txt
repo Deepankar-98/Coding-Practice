@@ -1,0 +1,20 @@
+When the input string contains only D or I we just need to return all positive number upto n either in descending or ascending orders respectively.
+So if n = 3, s = “II”, return [1, 2, 3]
+
+Now, starting with each character of the input string, we need to substitute an appropriate number(from 1 to n) corresponding to each character(I or D).
+
+So, Suppose we started with a set corresponding to all the elements from that we need to make permutation(i.e all integer from 1 to n).
+
+As I denotes the next number should be larger, we need to substitute smallest remaining number from our set corresponding to subsequent I as it automatically makes the next element to be larger.
+
+Similar things will happens with character D, we need to substitute the largest remaining number from our set.
+
+As the input string size is n - 1, we to append the last integer to our answer
+
+Input:
+
+n :  5
+
+s = DIDD
+
+Return: [5, 1, 4, 3, 2]

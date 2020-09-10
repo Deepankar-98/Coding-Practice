@@ -1,0 +1,14 @@
+Given all the intervals, you need to figure out the sequence of intervals which intersect.
+
+Lets see how we check if interval 1 (a,b) intersects with interval 2 (c,d):
+
+Overlap case :
+
+a---------------------b          OR     a------b
+            c-------------------d           c------------------d
+Non overlap case :
+
+a--------------------b   c------------------d
+If max(a,c) > min(b,d), then the intervals do not overlap. Otherwise, they overlap.
+
+NOTE : Do you think your life will be easier if you could sort the intervals based on the starting point?*

@@ -1,0 +1,16 @@
+# Merge Overlapping Intervals:
+
+Link -- https://www.interviewbit.com/problems/merge-overlapping-intervals/
+
+
+## Problem Description
+
+Given a collection of un-sorted intervals, merge all overlapping intervals.
+
+For example:
+
+Given [1,3],[2,6],[8,10],[15,18],
+
+return [1,6],[8,10],[15,18].
+
+Make sure the returned intervals are sorted.
