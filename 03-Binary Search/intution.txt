@@ -1,0 +1,10 @@
+1) Binary search obviously works on searching for elements in a sorted array. 
+
+2) But if you think about the reason why it works is because the array itself is monotonic ( either increasing or decreasing ). 
+
+So, if you are a particular position, you can make a definite call whether the answer lies in the left part of the position or the right part of it.
+
+Similar thing can be done with monotonic functions ( monotonically increasing or decreasing ) as well.
+
+3) We also need to ask ourselves 1 more questio, is it easier to find the solution if we know the answer to some other example near the queation we have asked.
+
