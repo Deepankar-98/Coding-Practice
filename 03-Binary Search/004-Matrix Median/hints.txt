@@ -1,0 +1,13 @@
+We cannot use extra memory, so we can’t actually store all elements in an array and sort the array.
+But since, rows are sorted it must be of some use, right?
+
+Note that in a row you can binary search to find how many elements are smaller than a value X in O(log M).
+This is the base of our solution.
+
+Say k = N*M/2. We need to find (k + 1)^th smallest element.
+We can use binary search on answer. In O(N log M), we can count how many elements are smaller than X in the matrix.
+
+So, we use binary search on interval [1, INT_MAX]. So, total complexity is O(30 * N log M).
+
+Note:
+This problem can be solve by using min-heap, but extra memory is not allowed.

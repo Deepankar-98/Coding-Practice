@@ -1,10 +1,45 @@
+### Notes:
+
 1) Binary search obviously works on searching for elements in a sorted array. 
 
-2) But if you think about the reason why it works is because the array itself is monotonic ( either increasing or decreasing ). 
+2) But if you think about the reason why it works is because the array itself is monotonic (either increasing or decreasing ). 
 
 So, if you are a particular position, you can make a definite call whether the answer lies in the left part of the position or the right part of it.
 
 Similar thing can be done with monotonic functions ( monotonically increasing or decreasing ) as well.
 
-3) We also need to ask ourselves 1 more questio, is it easier to find the solution if we know the answer to some other example near the queation we have asked.
+3) We also need to ask ourselves 1 more question, is it easier to find the solution if we know the answer to some other example near the queation we have asked.
+
+
+### Famous problems:--
+
+1. Painters partision problem, Allocate minimum no: of pages (v.v.imp)
+--> Unsorted array given with 3 conditions:
+
+	-- A book will be allocated to exactly one student
+	-- Every student must get atleast 1 book
+	-- Book allocation must be contineous
+
+Soln: Create a number line starting from the max-no-of-pages to sum(pages-per-book)
+
+while (start<=end)
+-- Then use binary search to find the maximum no: of pages allowed per 	student and then find out min no: of students required.
+
+-- If the no:of student required is grader than the no: of students in 	the question, --> move right and perform binay search  
+
+-- Else go left and perform BS 
+
+(Dry run the entire code) (Compulsary)
+
+
+
+2. Sort without allocating memory --  "004-matrix median" Problem. 
+
+
+
+3. Median on merging 2 un-sorted arrays:
+-- Perform BS on smaller array
+
+
+
 
