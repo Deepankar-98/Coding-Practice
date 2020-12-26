@@ -1,0 +1,14 @@
+## Access Hint
+
+The Problem is based on **Binary Search**
+
+So let’s start with thinking of monotonicity.
+
+If you set a height parameter to something let’s say x and you are able to remove atleast B metres amount of wood then for every parameter less than x you can remove atleast B metres of wood.
+
+This means you need to find the last x such that for every height parameter greater than x you cannot remove atleast B metres of wood.
+
+So we just to binary search for this x.
+
+Time Complexity: O(NlogN)
+Space Complexity: O(1)
