@@ -1,0 +1,16 @@
+# Access Hint
+
+A = 'abcde',
+B = 'cdeab'
+
+Basically A + A = "abcdeabcde"
+
+which contains all possible rotations of A.
+
+On rotating A by 1, we get "bcdea"
+
+On rotating A by 2, we get "cdeab"
+
+On rotating A by 3, we get "deabc"
+
+etc ...

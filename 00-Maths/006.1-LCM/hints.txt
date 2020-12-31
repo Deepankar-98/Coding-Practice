@@ -1,0 +1,3 @@
+First find gcd of 2 numbers (say a & b)
+
+LCM = (a*b) / gcd(a, b)
