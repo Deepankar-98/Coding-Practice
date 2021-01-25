@@ -1,6 +1,7 @@
 # Python program to print all primes smaller than or equal to 
 # n using Sieve of Eratosthenes 
-  
+
+import math  
 def SieveOfEratosthenes(n): 
 	# Create a boolean array "prime[0..n]" and initialize 
 	#  all entries it as true. A value in prime[i] will 

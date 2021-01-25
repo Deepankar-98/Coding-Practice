@@ -1,3 +1,5 @@
-Sieve of Eratosthenes is used to get all prime number in a given range and is a very efficient algorithm.
+Sieve of Eratosthenes is used to get all prime number in a given range n and is a very efficient algorithm.
 
-link -- https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+See Code for understanding the approach
+
+Time Complexity -- O (n log log n)
