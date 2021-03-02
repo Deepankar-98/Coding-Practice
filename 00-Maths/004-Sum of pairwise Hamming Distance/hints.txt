@@ -1,4 +1,4 @@
-Access Hint:
+## Access Hint:
 
 Suppose the given array contains only binary numbers, i.e A[i] belongs to [0, 1].
 

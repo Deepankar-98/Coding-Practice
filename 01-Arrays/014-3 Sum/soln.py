@@ -1,3 +1,5 @@
+# This solution is based on 2 pointers approach.
+# Assume j, k to be 2 pointers left and right.
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
@@ -24,5 +26,6 @@ class Solution:
                     j += 1
                 else:
                     k -= 1
+
         return [ list(i) for i in hashmap.keys()]
          

@@ -1,0 +1,29 @@
+## Intution 1:
+On dividing a no: A by 2^k,
+the remainder is the least significant k bits and the quotient is the rest of the bits.
+
+Eg:
+On dividing 109=1101101 by 8=1000, we get:
+
+1101      |  101
+quotient     Remainder
+= 13         = 5
+
+Note: Only valid for powers of 2
+
+
+
+## Intution 2:
+a<<k = a * (2^k)
+
+Eg: 
+a<<3 = a * (2^3) = 8a
+
+
+
+## Intution 3:
+Moreover:
+7n/8 = (8n-n)/8
+
+Therefore soln. is -- (n<<3 - n)>>3
+

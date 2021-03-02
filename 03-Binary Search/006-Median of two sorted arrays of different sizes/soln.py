@@ -1,4 +1,3 @@
-
 class Solution:
     # @param A : tuple of integers
     # @param B : tuple of integers
@@ -31,3 +30,4 @@ class Solution:
                 h = posA-1
             else:
                 l = posA+1
+

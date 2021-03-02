@@ -1,43 +1,35 @@
 class Solution:
-    # @param A : integer
-    # @param B : list of integers
-    # @return an integer
+    # @param A : string
+    # @return a list of integers
     
-    def solve(self, A, B):
+    def flip(self, A):
+        # Replace 1 with -1 & 0 with 1.
+        a = [-1 if i == '1' else 1 for i in A]
         
-        sum_arr = sum(B)
+        # Now applying Kedane's Algo
+        max_so_far = 0
+        curr_max = 0
+        start = -1
+        end = -1
+        temp_start = 0
         
-        if sum_arr % 3 != 0:
-            return 0
-        else:
-            part_sum = sum_arr // 3
+        
+        # All negeive case, i.e., all 1's were present
+        if max(a) < 0:
+            return []
             
+
+        # Using kedane Algo
+        for i, v in  enumerate(a):
+            max_so_far = max_so_far + v
+            if max_so_far < 0:
+                max_so_far = 0
+                temp_start = i+1
             
-        prefix = []
-        suffix = []
-        
-        
-        # Finding the prefix array.
-        cum_sum = 0
-        for ind, val in enumerate(B):
-            cum_sum += val
-            if cum_sum == part_sum:
-                prefix.append(ind)
-                
-                
-        # Finding the suffix array.
-        cum_sum = 0
-        for ind, val in enumerate(B[::-1]):
-            cum_sum += val
-            if cum_sum == part_sum:
-                suffix.append(A - ind - 1)
-                
-        if suffix or prefix:
-            count = 0
-            for i in prefix:
-                for j in suffix:
-                    if i < j-1 and sum(B[i+1:j]) == part_sum:
-                        count += 1
-            return count
-        return 0
+            elif max_so_far > curr_max:
+                curr_max = max_so_far
+                start = temp_start
+                end = i
+
+        return [start+1, end+1]
         

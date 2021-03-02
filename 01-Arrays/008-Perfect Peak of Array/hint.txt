@@ -10,6 +10,7 @@ If loops exits and no such element found return 0
 A Further Optimization to the above approach is to use only one extra array and traverse input array only twice.
 The first traversal is the same as above and fills leftMax[]. Next traversal traverses from the right and keeps track of the minimum. The second traversal also finds the required element.
 
+
 Time Complexity: O(N)
 Auxiliary Space: O(N)
 

@@ -1,3 +1,6 @@
+Explanation -- https://www.youtube.com/watch?v=LuLCLgMElus&t=299s
+
+
 It might help to write down the next permutation on paper to see how and when the sequence changes.
 
 You’ll realize the following pattern :

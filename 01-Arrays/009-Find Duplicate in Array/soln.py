@@ -5,11 +5,12 @@ class Solution:
         dup = -1
         num_set = set()
         
-        # Using hash table
+        # Using set data structure
         for i in A:
             if i in num_set:
                 dup = i
                 break
             else:
                 num_set.add(i)
+                
         return dup

@@ -5,8 +5,8 @@ class Solution:
     
     def solve(self, A, B):
         
+        # Checking if total sum is divisable by 3 or not.
         sum_arr = sum(B)
-        
         if sum_arr % 3 != 0:
             return 0
         else:
@@ -31,7 +31,9 @@ class Solution:
             cum_sum += val
             if cum_sum == part_sum:
                 suffix.append(A - ind - 1)
-                
+
+
+        # Finding no: of partitions that can be formed.         
         if suffix or prefix:
             count = 0
             for i in prefix:
@@ -40,4 +42,9 @@ class Solution:
                         count += 1
             return count
         return 0
-        
+
+# Driver code
+ob = Solution()
+a= 5
+b=[1, 2, 3, 0, 3]
+print(ob.solve(a,b))

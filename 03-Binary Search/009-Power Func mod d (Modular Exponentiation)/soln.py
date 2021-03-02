@@ -12,7 +12,7 @@ class Solution:
         res= 1
         
         while n > 0:
-            if n & 1:   # Odd?
+            if n & 1 == 1:   # Odd?
                res = (res * x) % d
                
             x = x**2 % d

@@ -1,0 +1,8 @@
+# Solve 7n By 8
+
+Link -- https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/bit-manipulation/solve-7nby8-official/ojquestion
+
+
+## Problem Statement:
+You are given a number n.
+You have to calculate the value of 7n/8 without using division and multiplication.

@@ -1,1 +1,5 @@
-https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/
+## Euclidean algorithms:
+
+link -- https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/
+
+Time Complexity: O(Log min(a, b))  

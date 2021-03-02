@@ -4,7 +4,6 @@ Link -- https://www.geeksforgeeks.org/find-the-maximum-element-in-an-array-which
 
 
 ## Problem Description
-
 Find the maximum element in an array which is first increasing and then decreasing (bitonic array)
 
 

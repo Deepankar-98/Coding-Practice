@@ -4,5 +4,5 @@ Link -- https://www.interviewbit.com/problems/implement-strstr/
 
 
 ## Problem Statement
-
 Returns the index of the first occurrence of pattern in a string or -1 if not part found.
+

@@ -1,0 +1,4 @@
+Method:
+
+Use addition/ subtraction and every time double the value you are adding/ substracting.
+If value is too large then half the value and try again.

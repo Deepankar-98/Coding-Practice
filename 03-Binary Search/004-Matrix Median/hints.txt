@@ -9,5 +9,6 @@ We can use binary search on answer. In O(N log M), we can count how many element
 
 So, we use binary search on interval [1, INT_MAX]. So, total complexity is O(30 * N log M).
 
+
 Note:
 This problem can be solve by using min-heap, but extra memory is not allowed.

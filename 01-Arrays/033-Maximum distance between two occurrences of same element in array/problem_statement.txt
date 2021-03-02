@@ -1,8 +1,10 @@
 # Maximum distance between two occurrences of same element in array
 
-link & solution - https://www.geeksforgeeks.org/maximum-distance-two-occurrences-element-array/  
+link & solution -- https://www.geeksforgeeks.org/maximum-distance-two-occurrences-element-array/  
 
-Last Updated: 09-12-2019
+
+## Problem Statement:
+
 Given an array with repeated elements, the task is to find the maximum distance two occurrences of an element.
 
 Examples:

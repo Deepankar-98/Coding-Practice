@@ -1,12 +1,13 @@
-Sorted Permutation Rank
+## Sorted Permutation Rank
 
 link -- https://www.interviewbit.com/problems/sorted-permutation-rank/
 
+## Problem Statement:
 
 Given a string, find the rank of the string amongst its permutations sorted lexicographically.
 Assume that no characters are repeated.
 
-Example :
+## Example :
 
 Input : 'acb'
 Output : 2

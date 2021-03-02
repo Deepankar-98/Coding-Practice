@@ -11,3 +11,4 @@ class Solution:
                 return [hashtable[diff], i]
             else:
                 hashtable[v] = i
+                

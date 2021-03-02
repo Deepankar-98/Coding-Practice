@@ -29,6 +29,8 @@ class Solution:
                 h = m-1
         return 0
 
+
+
 	# Trying to remove binary search and using GP
 	# S = x/5 + x/25 + x/125 + . . . 
 	# 5S = x + (x/5 + x/25 + x/125 + . . .)

@@ -1,0 +1,4 @@
+Think of all solutions first
+Target -- O(n) time complexity
+
+See soln.py file after thinking about the solution.

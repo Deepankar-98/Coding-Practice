@@ -11,10 +11,10 @@ Similar things will happens with character D, we need to substitute the largest 
 
 As the input string size is n - 1, we to append the last integer to our answer
 
+
+
 Input:
-
 n :  5
-
 s = DIDD
 
 Return: [5, 1, 4, 3, 2]

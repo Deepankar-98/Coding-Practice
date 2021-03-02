@@ -4,13 +4,14 @@ class Solution:
 
     def solve(self, A):
         n = len(A)
-        odd = 0
-        even = 0
         leftOdd = [0] * n
         rightOdd = [0] * n
         leftEven = [0] * n
         rightEven = [0] * n
 
+        # Filling left side tables.
+        odd = 0
+        even = 0
         for i in range(n):
             leftOdd[i] = odd
             leftEven[i] = even
@@ -19,7 +20,7 @@ class Solution:
             else:
                 odd += A[i]
         
-
+        # Filling right side tables.
         odd = 0
         even = 0
         for i in range(n-1, -1, -1):
