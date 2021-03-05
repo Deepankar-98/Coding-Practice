@@ -1,4 +1,11 @@
-Think of all solutions first
+Think of all solutions first   --> Then look at th code thoroughly
 Target -- O(n) time complexity
 
-See soln.py file after thinking about the solution.
+
+On using normal method it takes O(n^2) time on taking each pair.
+Whereas on counting the number of 1's it takes O(32*n) time.
+
+Use x=1 and & operator. No need to do bitwise shift operations, instead just do x*2 after each iteration.
+
+Think how its working.
+
