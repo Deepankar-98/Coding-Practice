@@ -1,0 +1,33 @@
+# Palindromic Binary Representation
+
+Link -- https://www.interviewbit.com/problems/palindromic-binary-representation/
+
+## Problem Statement:
+Given an integer A find the Ath number whose binary representation is a palindrome.
+
+
+### NOTE:
+1. Consider the 1st number whose binary representation is palindrome as 1, instead of 0.
+
+2. Do not consider the leading zeros, while considering the binary representation.
+
+
+
+## Example
+### Input 1:
+ A = 1
+O/P -- 1
+
+### Input 2:
+ A = 9
+O/P -- 27
+
+
+
+## Example Explanation
+### Explanation 1:
+ 1st Number whose binary representation is palindrome is 1
+
+### Explanation 2
+ 9th Number whose binary representation is palindrome is 27 (11011)
+

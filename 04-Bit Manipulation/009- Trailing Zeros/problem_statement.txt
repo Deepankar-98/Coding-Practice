@@ -1,0 +1,7 @@
+# Trailing Zeroes
+
+Link -- https://www.interviewbit.com/problems/trailing-zeroes/
+
+
+## Problem Statement:
+Given an integer A, count and return the number of trailing zeroes.
